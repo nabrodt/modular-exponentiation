@@ -52,14 +52,9 @@ own solution: 13
 
 ## Code
 
-```python
+```python 
+python modular-exponentiation.py
 import time
-
-def main():
-    task1()
-    task2()
-    task3()
-    task4()
 
 # Modular exponentiation algorithm
 def modular_exponentiation(base: int, n: int, modul: int):
@@ -165,6 +160,12 @@ def task4():
 
     print("own solution: %s" % (d3))
 
+
+def main():
+    task1()
+    task2()
+    task3()
+    task4()
 
 main()
 ```
