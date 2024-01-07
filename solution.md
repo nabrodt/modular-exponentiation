@@ -1,53 +1,6 @@
-## Solutions to the tasks
+# Modular Exponentiation
 
-### Task 1: 5^99 mod 11
-```
-Wolfram alpha solution: 9
---- 0.0031156539916992188 seconds ---
-python solution: 9 
-
-Own algorithm:
---- 0.007036685943603516 seconds ---
-own solution: 9 
-```
- 
-
-### Task 2: 50^529 mod 13
-```
-Wolfram alpha solution: 11
---- 0.02004075050354004 seconds ---
-python solution: 11 
-
-Own algorithm:
---- 0.009119510650634766 seconds ---
-own solution: 11 
-```
-
-### Task 3: 50^999 mod 17
-```
-Wolfram alpha solution: 16
---- 0.05055546760559082 seconds ---
-python solution: 16 
-
-Own algorithm:
---- 0.009988546371459961 seconds ---
-own solution: 16 
-```
-
-### Own task: 999^999 mod 14
-```
-Wolfram alpha solution: 13
---- 0.003516674041748047 seconds ---
-python solution: 1 
-
-python solution with pow(50, 50, 3): 1 
-
-Own algorithm:
---- 0.009999513626098633 seconds ---
-own solution: 13
-```
-*The built-in function does not compute the correct result, but the modular exponentiation algorithm does*
-
+*Johannes Brandenburger, Nadina Brodt, Tobias Tögel*
 
 
 ## Code
@@ -169,3 +122,53 @@ def main():
 
 main()
 ```
+
+## Solutions to the tasks
+
+### Task 1: 5^99 mod 11
+```
+Wolfram alpha solution: 9
+--- 0.0031156539916992188 seconds ---
+python solution: 9 
+
+Own algorithm:
+--- 0.007036685943603516 seconds ---
+own solution: 9 
+```
+ 
+
+### Task 2: 50^529 mod 13
+```
+Wolfram alpha solution: 11
+--- 0.02004075050354004 seconds ---
+python solution: 11 
+
+Own algorithm:
+--- 0.009119510650634766 seconds ---
+own solution: 11 
+```
+
+### Task 3: 50^999 mod 17
+```
+Wolfram alpha solution: 16
+--- 0.05055546760559082 seconds ---
+python solution: 16 
+
+Own algorithm:
+--- 0.009988546371459961 seconds ---
+own solution: 16 
+```
+
+### Own task: 999^999 mod 14
+```
+Wolfram alpha solution: 13
+--- 0.003516674041748047 seconds ---
+python solution: 1 
+
+python solution with pow(50, 50, 3): 1 
+
+Own algorithm:
+--- 0.009999513626098633 seconds ---
+own solution: 13
+```
+*The built-in function does not compute the correct result, but the modular exponentiation algorithm does*

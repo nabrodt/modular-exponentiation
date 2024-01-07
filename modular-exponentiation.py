@@ -1,3 +1,5 @@
+# authors: Johannes Brandenburger, Nadina Brodt, Tobias Tögel
+
 import time
 
 # Modular exponentiation algorithm
